@@ -1,0 +1,60 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+    }
+   
+    
+    button:hover{
+
+background-color: yellow;
+
+    }
+
+
+    nav {
+        background-color: #3100a2;
+        overflow: hidden;
+      }
+     
+
+      body {
+       
+        font-family: Arial, sans-serif;
+      }
+      
+      nav {
+        background-color: #2a028e;
+       
+      
+       
+        width: 100%;
+        z-index: 1000;
+      }
+      
+      nav a {
+        float: left;
+        display: block;
+        color: rgb(214, 214, 214);
+        text-align: center;
+        padding: 14px 20px;
+       
+      }
+      
+      nav a:hover {
+        background-color: #340586;
+      }
+      
+      .conteudo {
+        padding-top: 60px; 
+      }
+
+      h1{
+
+        border-color: #9e050580;
+      }
